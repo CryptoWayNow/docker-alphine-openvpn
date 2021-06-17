@@ -7,8 +7,8 @@ FROM alpine:3.7
 MAINTAINER B14ckP4nd4 <b14ckp4nd4@protonmail.com>
 
 # Arguments
-PORT=443
-PROTOCOL='tcp'
+ARG PORT=443
+ARG PROTOCOL='tcp'
 
 # environments
 ENV PORT=$PORT
